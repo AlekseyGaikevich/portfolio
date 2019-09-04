@@ -27,7 +27,6 @@ const Header = () => {
         {nameLinks}
       </div>
     </Bounce>
-
   </div>
 }
 
