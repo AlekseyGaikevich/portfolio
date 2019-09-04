@@ -1,0 +1,29 @@
+.App {
+  background-color: rgb(15, 7, 17);  
+  scroll-behavior: smooth;
+}
+
+.particles {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0.3;
+}
+
+.relative {
+  position: relative;
+}
+
+a:hover {
+  text-decoration: none;   
+  color: rgba(255,255,255,0.1);
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+}
